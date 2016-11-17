@@ -1,0 +1,17 @@
+.somecolor{
+	color: blue;
+    }
+li{
+	display: inline;
+	font-size: 3.0rem;padding-right: 1.5rem;
+	color: red;
+}
+ul{
+	text-align: center; 
+}
+.picture {
+	height: 50rem;
+}
+.nitrofooter{
+	font-size: 2.0rem;
+}

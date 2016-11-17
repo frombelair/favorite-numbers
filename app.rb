@@ -67,6 +67,16 @@ post '/change' do
 	# "Thank you #{name}, you have deposited #{stuff}"
 	erb :change_returned, :locals => {:name => name, :stuff => stuff, :input_amount_to_be_reduced => input_amount_to_be_reduced }
 end
+get '/contact' do
+	erb :contact
+end
+
+get '/about' do
+	erb :about
+end
+get '/samples' do
+	erb :samples
+end
 
 
 
